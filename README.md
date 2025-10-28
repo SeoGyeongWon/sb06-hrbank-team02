@@ -1,9 +1,42 @@
 
 ---
+# 개인 개발 리포트_서경원
 
-# 파일 관리 기능 
+> 개인 개발 리포트 작성
+### 개요  
+제목: HR Bank  
+부제: Batch로 데이터를 관리하는 Open EMS  
+기간: 2025.10.20(월) ~ 2025.10.28(화)  
+저장소: https://github.com/codeit-spring-6-part2-team2/sb06-hrbank-team02  
+담당 기능: 파일 기능 관리
+
+## 기술 스택
+
+- 언어: Java 17
+- 프레임워크: Spring Boot 3
+- 빌드 도구: Gradle
+- 데이터베이스: H2 Database (개발 및 테스트), PostgreSQL (운영)
+- ORM: Spring Data JPA, Querydsl
+- 버전 관리: Git, GitHub
+- 협업 도구: Discord
+- API 문서화: Swagger
+- 테스트: JUnit 5, Mockito
+- Null Safety: Jspecify, Spring Validation
+- Mapping: MapStruct
+
+  jspecify를 사용해 package-info.java를 등록하고, nullMark로 안전하게 프로젝트를 진행할 수 있도록 했음
 
 ---
+## 깃허브 중심 개발 프로세스
+깃을 사용할떄마다 헷갈렸었으며,
+깃 명령어에도 익숙치 않았습니다.
+팀 프로젝트 레포지토리에서 fork를 해서 내 작업 레포지토리로 와서 작업을 진행하고, 원본 레포지토리의 최신 반영사항을 얻어오기위해 upstream도 처음 사용해보았습니다
+issue 발행 및 discussion 기능들이 있는지 잘몰랐으며, 이번기회에 잘 학습한것 같습니다.
+
+---
+
+## 파일 관리 기능 소개
+
 
 ## 1. 개요
 
